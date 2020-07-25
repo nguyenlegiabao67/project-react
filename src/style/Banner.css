@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@keyframes slide-title {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+@keyframes changeImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner{
+    display: none;
+}
+.banner.active{
+    display: block;
+    animation: changeImage;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+.page-banner{
+    position: relative;
+}
+.title-banner{
+    position: absolute;
+    left: 160px;
+    top: 150px;
+    bottom: 0px;
+    z-index: 10;
+    width: 35%;
+	animation: slide-title 2s both;
+}
+.name-product{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    word-spacing: 20px;
+    font-style: italic;
+}
+.sologan-banner{
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.content-banner{
+    margin-bottom: 30px;
+}
+.learn-more{
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: black 2px solid;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-style: bold ;
+}
+.learn-more:hover{
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.btn-prev ,.btn-next{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+.btn-prev{
+    left: 10px;
+}
+.btn-next{ 
+    right: 10px;      
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.carousel{
+    /* margin: 50px 0px; */
+    width: 100%;
+    border-bottom: 1px solid #7F7D7D;
+}
+.product-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 580px; /*600px*/
+}
+.item-img{
+    width: 400px; /*400px*/
+    height: 450px; /*450px*/
+}
+.item-title{
+    outline: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-style: italic;
+}
+.product-column img{
+    transition:  0.3s;
+}
+
+.item-img:hover{
+    transform: scale(1.1);
+}

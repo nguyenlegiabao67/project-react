@@ -1,0 +1,40 @@
+.sample-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 75%;
+    padding: 40px 0px;
+    margin: auto;
+}
+.sample-product.right{
+    flex-direction: row-reverse;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.sample-content{
+    margin: 0px 40px;
+    width: 40%;
+}
+.sample-desc{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+.sample-image{
+    width: 400px;
+    height: 350px;
+}
+.detail{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 25px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+.detail:hover{
+    background-color: black;
+    color: white;
+    transition: ease 0.5s;
+}
