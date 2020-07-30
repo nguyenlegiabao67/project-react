@@ -38,3 +38,6 @@
     color: white;
     transition: ease 0.5s;
 }
+.list-sample-product{
+    border-bottom: 1px solid #7F7D7D;
+}

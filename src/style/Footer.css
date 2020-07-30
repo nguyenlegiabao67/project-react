@@ -1,0 +1,36 @@
+.page-footer{
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info-footer{
+    margin-right: 100px;
+}
+.email-footer{
+    width: 45%;
+}
+.email-footer input{
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.txt-name, .txt-company {
+    width: 40%;
+}
+.txt-email{
+    width: 86%;
+}
+textarea{
+    height: 186px;
+    width: 517px;
+}
+.btn-send{
+    background: none;
+    border: 1px solid black;
+    padding: 5px 25px;
+    margin-top: 15px;
+    /* outline: none; */
+    outline-style: hidden;
+}

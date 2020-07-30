@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -9,10 +10,10 @@ const Header = () => {
             </div>
             <div className='header-nav'>
                 <ul>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About me</a></li>
+                    <li><Link to={'/'}>Home</Link></li>
                     <li><a href='#'>Products</a></li>
-                    <li><a href='#'>Contact me</a></li>
+                    <li><Link to={'/About-me'}>About me</Link></li>
+                    <li><a href='.page-footer'>Contact me</a></li>
                 </ul>
             </div>
         </div>
